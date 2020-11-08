@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="main-menu">
+        <a href="index.html"><h1 id="brand-logo"><img src="images/logo.png" alt=""></h1></a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <!-- <li><a href="services.html">Services</a></li> -->
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="login"><a href="login.html"><img src="images/login.png" alt=""> <p>Login</p></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <marquee behavior="" direction="">Free online website to learn </marquee>
+
+    <div class="course_frame">
+        <h1>Popular Course</h1>
+
+        <div class="course_card">
+            <div class="card">
+                <img src="images/html_cover.png" alt="">
+                <h3 class="course_heading">HTML Course</h3>
+                <p class="lect">Lectures 64 | Lenght: 75 Hours </p>
+                <p class="discription">
+                    This course introduces students to basic web design using HTML (Hypertext Markup Language) 
+                    Understand and apply effective web design principles. Enhance web pages using text formatting, color, graphics, images, and multimedia.
+                </p>
+                <button>Free</button>
+                <p onclick="html();"><a href="#"> Click here to see Course outline</a></p>
+
+            </div>
+            <div class="card">
+                <img src="images/css_cover.png" alt="">
+                <h3 class="course_heading">CSS Course</h3>
+                <p class="lect">Lectures 42 | Lenght: 29 Hours </p>
+                <p class="discription">
+                    This course shows you how to design web pages and create CSS classes from a beginner's level to a more intermediate level. ... In general, CSS files are the layout and design for a web page. </p>
+                <button>Free</button>
+                <p onclick="css();"><a href="#"> Click here to see Course outline</a></p>
+            </div>
+            <div class="card">
+                <img src="images/js_cover.jpg" alt="">
+                <h3 class="course_heading">Javascript Course</h3>
+                <p class="lect">Lectures 109 | Lenght: 80 Hours </p>
+                <p class="discription">
+                    JavaScript introduces students to the basics of JavaScript, one of today's leading web development languages. The course requires knowledge of HTML and CSS </p>
+                <button>Free</button>
+                <p onclick="js();"><a href="#"> Click here to see Course outline</a></p>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </div>
+ <!-- <div id="courses"> -->
+   <!---
+   
+   <fieldset>
+        
+    <legend><h1>Course details</h1></legend> -->
+
+    <div class="course-catalog" id="html">
+        <h2>HTML</h2>
+        <h4>Duration 3 Months</h4>
+        <ol>
+            <li><a href="#">Structure</a></li>
+            <li><a href="#">Text</a></li>
+            <li><a href="#">List</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Tables</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">Extra Markup</a></li>
+            <li><a href="#">Links</a></li>
+            <li><a href="#">Headings</a></li>
+            <li><a href="#">Paragraph</a></li>
+        </ol>
+    </div>
+    <div class="course-catalog " id="css">
+        <h2>CSS</h2>
+        <h4>Duration 1 Months</h4>
+        <ol>
+            <li><a href="#">Introducing CSS</a></li>
+            <li><a href="#">Color</a></li>
+            <li><a href="#">Text</a></li>
+            <li><a href="#">Boxes</a></li>
+            <li><a href="#">Layout</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">List</a></li>
+            <li><a href="#">Tables</a></li>
+            <li><a href="#">Forms</a></li>
+            <li><a href="#">Practical Information</a></li>
+        </ol>
+    </div>
+    <div class="course-catalog" id="js">
+        <h2>Javascript</h2>
+        <h4>Duration 6 Months</h4>
+        <ol>
+            <li><a href="#">Introduction</a></li>
+            <li><a href="#">Basic Structure</a></li>
+            <li><a href="#">Variable</a></li>
+            <li><a href="#">String</a></li>
+            <li><a href="#">if Statement</a></li>
+            <li><a href="#">if else Statement</a></li>
+            <li><a href="#">Arrays</a></li>
+            <li><a href="#">Loops</a></li>
+            <li><a href="#">Changing case</a></li>
+            <li><a href="#">Rounding Numbers</a></li>
+        </ol>
+    </div>
+    
+    <!-- </fieldset> -->
+<!-- </div>  -->
+
+<script>
+    function js(){
+        document.getElementById("js").style.visibility = "visible"
+    }
+    function html(){
+        document.getElementById("html").style.visibility = "visible"
+    }
+    function css(){
+        document.getElementById("css").style.visibility = "visible"
+    }
+</script>
+
+</body>
+</html>
